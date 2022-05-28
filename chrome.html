@@ -22,7 +22,7 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Guides</div>
+                <div class="sidebar-heading border-bottom bg-light">🍨 Guides</div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Chromebook</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Hackintosh</a>
@@ -61,9 +61,23 @@
                     <h1 class="mt-4">Chromebook Hacks</h1>
                     <h3>Jailbreak</h3>
                     <p>What is jailbreaking a chromebook? <br> <br> 
-                        Jailbreaking is when you take out the original software of the computer and add or remove something to make your life more convienent. It is usually done to devices that have limitations to the current hardware or software configurations. In this guide I will be showing you how to jailbreak a chromebook. <br> <br> 
+                        Jailbreaking is when you take out the original software of the computer and add or remove something to make your life more convienent. It is usually done to devices that have limitations to the current hardware or software configurations. In this guide I will be showing you how to jailbreak a chromebook.
                     <p class="warn">Warning!</p> This may brick your device, so tread carefully. A list of compalibale devices is <a href="https://mrchromebox.tech/#devices">here</a>. Make sure your chromebook has UEFI checked. If it doesn't, look for a guide on legacy boot. If your chromebook is not listed, you have a much greater risk of bricking your device, but you may or may not be able to continue.<br> </p>
                 </div>
+                <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scss" data-lang="scss"><span class="line"><span class="cl"><span class="c1">// Source mixin
+                </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">@mixin</span><span class="nf"> make-container</span><span class="p">(</span><span class="nv">$padding-x</span><span class="o">:</span> <span class="nv">$container-padding-x</span><span class="p">)</span> <span class="p">{</span>
+                </span></span><span class="line"><span class="cl">  <span class="na">width</span><span class="o">:</span> <span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+                </span></span><span class="line"><span class="cl">  <span class="na">padding-right</span><span class="o">:</span> <span class="nv">$padding-x</span><span class="p">;</span>
+                </span></span><span class="line"><span class="cl">  <span class="na">padding-left</span><span class="o">:</span> <span class="nv">$padding-x</span><span class="p">;</span>
+                </span></span><span class="line"><span class="cl">  <span class="na">margin-right</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+                </span></span><span class="line"><span class="cl">  <span class="na">margin-left</span><span class="o">:</span> <span class="ni">auto</span><span class="p">;</span>
+                </span></span><span class="line"><span class="cl"><span class="p">}</span>
+                </span></span><span class="line"><span class="cl">
+                </span></span><span class="line"><span class="cl"><span class="c1">// Usage
+                </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nc">.custom-container</span> <span class="p">{</span>
+                </span></span><span class="line"><span class="cl">  <span class="k">@include</span><span class="nd"> make-container</span><span class="p">();</span>
+                </span></span><span class="line"><span class="cl"><span class="p">}</span>
+                </span></span></code></pre></div>
             </div>
         </div>
         <!-- Bootstrap core JS-->
